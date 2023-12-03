@@ -26,20 +26,23 @@ java -jar junit-platform-console-standalone-1.8.2.jar --class-path . --scan-clas
 ```
 ╷
 ├─ JUnit Jupiter ✔
+│  └─ CalculatorTest ✔
+│     ├─ testAddNumbersPositiveScenario() ✔
+│     └─ testAddNumbersNegativeScenario() ✔
 └─ JUnit Vintage ✔
 
-Test run finished after 54 ms
-[         2 containers found      ]
+Test run finished after 84 ms
+[         3 containers found      ]
 [         0 containers skipped    ]
-[         2 containers started    ]
+[         3 containers started    ]
 [         0 containers aborted    ]
-[         2 containers successful ]
+[         3 containers successful ]
 [         0 containers failed     ]
-[         0 tests found           ]
+[         2 tests found           ]
 [         0 tests skipped         ]
-[         0 tests started         ]
+[         2 tests started         ]
 [         0 tests aborted         ]
-[         0 tests successful      ]
+[         2 tests successful      ]
 [         0 tests failed          ]
 
 ```
