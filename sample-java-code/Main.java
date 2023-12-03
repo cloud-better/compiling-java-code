@@ -4,9 +4,3 @@ public class Main {
     }
 }
 
-
-# Save it as Main.java
-
-# Execute: javac Main.java
-
-# Execute: java Main
